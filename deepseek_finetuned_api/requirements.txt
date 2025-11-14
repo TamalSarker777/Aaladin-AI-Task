@@ -4,4 +4,5 @@ transformers==4.45.2
 accelerate==0.34.2
 huggingface-hub==0.24.6
 safetensors==0.4.5
-torch
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
